@@ -1,0 +1,8 @@
+a = int(input())
+b = int(input())
+m = int(input())
+if a in range(1,11) and b in range(1,11) and m in range(2,1001):
+    power = a**b
+    powmod = (a**b)%m
+    print(power)
+    print(powmod)
