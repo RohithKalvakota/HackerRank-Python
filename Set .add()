@@ -1,0 +1,9 @@
+n = int(input())
+arr = []
+for i in range(0,n):
+    nums = input()
+    arr.append(nums)
+arr = set(arr)
+
+length = len(arr)
+print(length)
