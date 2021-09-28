@@ -1,0 +1,8 @@
+n = int(input())
+m = int(input())
+div = n//m
+mod = n%m
+print(div)
+print(mod)
+tuple1 = (div,mod)
+print(tuple1)
