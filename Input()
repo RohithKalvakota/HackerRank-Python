@@ -1,0 +1,4 @@
+#Challenge only allowed for Python2
+
+x,k = map(int,raw_input().split())
+print input()==k
