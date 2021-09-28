@@ -1,0 +1,7 @@
+nums1 = int(input())
+nums_list1 = set(input().strip().split())
+nums2 = int(input())
+nums_list2 = set(input().strip().split())
+uni = nums_list1.union(nums_list2)
+
+print(len(uni))
