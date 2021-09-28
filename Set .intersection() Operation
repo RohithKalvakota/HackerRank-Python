@@ -1,0 +1,9 @@
+n = int(input())
+nums1 = list(map(int,input().strip().split()))[:n]
+b = int(input())
+nums2 = list(map(int,input().strip().split()))[:n]
+
+nums1 = set(nums1)
+nums3 = nums1.intersection(nums2)
+
+print(len(nums3))
