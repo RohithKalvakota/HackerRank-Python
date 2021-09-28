@@ -1,0 +1,7 @@
+import numpy as np
+
+arr = list(map(int,input().split()))[:9]
+my_arr = np.array(arr)
+my_arr.shape = (3,3)
+
+print(my_arr)
