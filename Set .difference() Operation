@@ -1,0 +1,8 @@
+n1 = int(input())
+nums1 = list(map(int,input().split()))[:n1]
+nums1 = set(nums1)
+n2 = int(input())
+nums2 = list(map(int,input().split()))[:n2]
+nums2 = set(nums2)
+
+print(len(nums1.difference(nums2)))
