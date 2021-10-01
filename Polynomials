@@ -1,0 +1,7 @@
+import numpy as np
+
+nums = list(map(float,input().split()))
+k = int(input())
+
+print(np.polyval(nums,k))
+
