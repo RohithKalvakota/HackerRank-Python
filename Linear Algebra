@@ -1,0 +1,12 @@
+import numpy as np
+
+n = int(input())
+
+nums = []
+
+for i in range(n):
+    arr = list(map(float,input().split()))[:n]
+    nums.append(arr)
+    
+var = np.linalg.det(nums)
+print(round(var,2))
